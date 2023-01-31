@@ -2,6 +2,7 @@ package com.ceshm.citrus.item;
 
 import com.ceshm.citrus.Citrus;
 import com.ceshm.citrus.CitrusClient;
+import com.ceshm.citrus.item.custom.EightBallItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -20,6 +21,11 @@ public class ModItems {
     public static final Item TANZANITE = registerItem(
             "tanzanite",
             new Item(new Item.Settings()),
+            ModItemGroup.CITRUS_MAIN
+    );
+    public static final Item EIGHT_BALL = registerItem(
+            "eight_ball",
+            new EightBallItem(new Item.Settings().maxCount(1)),
             ModItemGroup.CITRUS_MAIN
     );
 

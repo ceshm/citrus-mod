@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "citrus:tanzanite_block",
+    "citrus:tanzanite_ore",
+    "citrus:deepslate_tanzanite_ore"
+  ]
+}

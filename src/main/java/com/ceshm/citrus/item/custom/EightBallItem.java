@@ -37,7 +37,6 @@ public class EightBallItem extends Item {
         } else {
             tooltip.add(Text.literal("Press Shift for more info!").formatted(Formatting.ITALIC));
         }
-
         super.appendTooltip(stack, world, tooltip, context);
     }
 }

@@ -1,6 +1,7 @@
 package com.ceshm.citrus.block;
 
 import com.ceshm.citrus.Citrus;
+import com.ceshm.citrus.block.custom.TanzaniteLampBlock;
 import com.ceshm.citrus.block.custom.TrampoBlock;
 import com.ceshm.citrus.item.ModItemGroup;
 
@@ -37,6 +38,17 @@ public class ModBlocks {
     public static final Block TRAMPO_BLOCK = registerBlock(
             "trampo_block",
             new TrampoBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()),
+            ModItemGroup.CITRUS_MAIN
+    );
+    public static final Block TANZANITE_LAMP = registerBlock(
+            "tanzanite_lamp",
+            new TanzaniteLampBlock(
+                    FabricBlockSettings
+                            .of(Material.METAL)
+                            .strength(2f)
+                            .requiresTool()
+                            .luminance(state -> state.get(TanzaniteLampBlock.LIT) ? 15 : 0)
+            ),
             ModItemGroup.CITRUS_MAIN
     );
 

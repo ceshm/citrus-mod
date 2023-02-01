@@ -1,6 +1,7 @@
 package com.ceshm.citrus.block;
 
 import com.ceshm.citrus.Citrus;
+import com.ceshm.citrus.block.custom.TrampoBlock;
 import com.ceshm.citrus.item.ModItemGroup;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -31,6 +32,11 @@ public class ModBlocks {
     public static final Block DEEPSLATE_TANZANITE_ORE = registerBlock(
             "deepslate_tanzanite_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()),
+            ModItemGroup.CITRUS_MAIN
+    );
+    public static final Block TRAMPO_BLOCK = registerBlock(
+            "trampo_block",
+            new TrampoBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()),
             ModItemGroup.CITRUS_MAIN
     );
 

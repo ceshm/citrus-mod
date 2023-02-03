@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thrive:tanzanite_block"
+    }
+  ],
+  "result": {
+    "item": "thrive:tanzanite",
+    "count": 9
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "item.thrive.raw_tanzanite": "Raw Tanzanite",
+  "item.thrive.tanzanite": "Tanzanite",
+  "item.thrive.eight_ball": "Eight Ball",
+  "item.thrive.eggplant": "Eggplant",
+  "item.thrive.eggplant_seeds": "Eggplant Seeds",
+
+  "block.thrive.tanzanite_block": "Tarzan Block",
+  "block.thrive.tanzanite_ore": "Tarzan Ore",
+  "block.thrive.deepslate_tanzanite_ore": "Black Tarzan Ore",
+  "block.thrive.trampo_block": "Tramp o'Block",
+  "block.thrive.tanzanite_lamp": "Tarzan Lamp",
+  "block.thrive.eggplant_crop": "Eggplant Crop",
+
+  "itemGroup.thrive.thrive_main": "Thrive Mod"
+}

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "citrus",
+  "id": "thrive",
   "version": "${version}",
 
-  "name": "Citrus",
+  "name": "Thrive",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "ceshm"
@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.ceshm.citrus.Citrus"
+      "com.ceshm.thrive.Thrive"
     ],
     "client": [
-      "com.ceshm.citrus.CitrusClient"
+      "com.ceshm.thrive.ThriveClient"
     ]
   },
   "mixins": [
-    "citrus.mixins.json"
+    "thrive.mixins.json"
   ],
 
   "depends": {

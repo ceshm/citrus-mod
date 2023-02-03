@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "lit=true": { "model": "citrus:block/tanzanite_lamp_on" },
-    "lit=false": { "model": "citrus:block/tanzanite_lamp_off" }
-  }
-}

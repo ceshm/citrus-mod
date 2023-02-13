@@ -12,5 +12,7 @@
   "block.thrive.tanzanite_lamp": "Tarzan Lamp",
   "block.thrive.eggplant_crop": "Eggplant Crop",
 
-  "itemGroup.thrive.thrive_main": "Thrive Mod"
+  "itemGroup.thrive.thrive_main": "Thrive Mod",
+
+  "entity.minecraft.villager.jumpmaster": "Jump Master"
 }
